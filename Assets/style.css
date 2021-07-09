@@ -44,7 +44,7 @@ header h1 {
     font-weight:bolder;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
- }
+  }
 
 .Header {
   max-width: 1000px;
@@ -55,6 +55,7 @@ header h1 {
   
   /* Columns */
   .column {
+    
     float: left;
     flex-wrap: wrap;
     width:100%;
@@ -64,9 +65,13 @@ header h1 {
 
   
   /* Content */
-  .content {
-
-    padding: 20px;
+  .contents {
+    
+    list-style: none;
+    padding: 20px,15px;
+    font-weight:bolder;
+    color: black;
+ 
   }
 
 /* screen sizes */
