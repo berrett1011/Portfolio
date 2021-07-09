@@ -3,11 +3,15 @@
   box-sizing:content-box;
 }
 
+
+/* body */
 body {
   background-color: rgba(66, 66, 66, 0.315);
   padding: 20px;
   font-family: Arial;
 }
+
+/* Header */
 
 header h1 {
     font-weight: bold;
@@ -46,20 +50,10 @@ header h1 {
   max-width: 1000px;
 }
 
-h1 {
-  font-weight: bold;
-  margin: auto;
-  font-size: 36px;
-  color:rgb(25, 25, 25);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-h2 {
-    font-weight: bold;
-    margin: 20;
-    font-size: 30px;
-    color:rgb(25, 25, 25);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+
+
+  
+  /* Columns */
   .column {
     float: left;
     flex-wrap: wrap;
@@ -75,7 +69,7 @@ h2 {
     padding: 20px;
   }
 
-
+/* screen sizes */
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
